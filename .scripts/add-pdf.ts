@@ -1,6 +1,6 @@
 import { input, select } from "@inquirer/prompts";
 import { mkdir, writeFile } from "node:fs/promises";
-import { dirname, join } from "node:path";
+import { dirname, posix } from "node:path";
 import ora from "ora";
 
 async function main() {
@@ -79,7 +79,7 @@ async function main() {
 
   const bytes = Buffer.from(await response.arrayBuffer());
 
-  const path = join(
+  const path = posix.join(
     "exams",
     year,
     round,

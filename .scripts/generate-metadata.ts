@@ -1,7 +1,7 @@
 import { createHash } from "node:crypto";
 import { readFileSync, statSync, writeFileSync } from "node:fs";
 import { readdir } from "node:fs/promises";
-import { join } from "node:path";
+import { posix } from "node:path";
 import ora from "ora";
 
 function sha256hashSync(buffer: Buffer) {
@@ -25,7 +25,7 @@ async function main() {
 
   const targetDir = "exams"
 
-  const examsRoot = await readdir(join(targetDir), { recursive: true })
+  const examsRoot = await readdir(posix.join(targetDir), { recursive: true })
 
   const files: file[] = []
 
@@ -33,7 +33,7 @@ async function main() {
 
   await Promise.all(
     examsRoot.filter((e) => e.includes(".pdf")).map(async (e) => {
-      const path = join(targetDir, e)
+      const path = posix.join(targetDir, e).replaceAll("\\", "/");
 
       const buffer = readFileSync(path)
       const stat = statSync(path)

@@ -8,58 +8,58 @@
           "subjects": [
             {
               "id": "butsurikiso",
-              "question": "exams\\2025\\1\\butsurikiso\\question.pdf",
-              "answer": "exams\\2025\\1\\butsurikiso\\answer.pdf"
+              "question": "exams/2025/1/butsurikiso/question.pdf",
+              "answer": "exams/2025/1/butsurikiso/answer.pdf"
             },
             {
               "id": "chigakukiso",
-              "question": "exams\\2025\\1\\chigakukiso\\question.pdf",
-              "answer": "exams\\2025\\1\\chigakukiso\\answer.pdf"
+              "question": "exams/2025/1/chigakukiso/question.pdf",
+              "answer": "exams/2025/1/chigakukiso/answer.pdf"
             },
             {
               "id": "chiri",
-              "question": "exams\\2025\\1\\chiri\\question.pdf",
-              "answer": "exams\\2025\\1\\chiri\\answer.pdf"
+              "question": "exams/2025/1/chiri/question.pdf",
+              "answer": "exams/2025/1/chiri/answer.pdf"
             },
             {
               "id": "eigo",
-              "question": "exams\\2025\\1\\eigo\\question.pdf",
-              "answer": "exams\\2025\\1\\eigo\\answer.pdf"
+              "question": "exams/2025/1/eigo/question.pdf",
+              "answer": "exams/2025/1/eigo/answer.pdf"
             },
             {
               "id": "kagakukiso",
-              "question": "exams\\2025\\1\\kagakukiso\\question.pdf",
-              "answer": "exams\\2025\\1\\kagakukiso\\answer.pdf"
+              "question": "exams/2025/1/kagakukiso/question.pdf",
+              "answer": "exams/2025/1/kagakukiso/answer.pdf"
             },
             {
               "id": "kajin",
-              "question": "exams\\2025\\1\\kajin\\question.pdf",
-              "answer": "exams\\2025\\1\\kajin\\answer.pdf"
+              "question": "exams/2025/1/kajin/question.pdf",
+              "answer": "exams/2025/1/kajin/answer.pdf"
             },
             {
               "id": "kokugo",
-              "question": "exams\\2025\\1\\kokugo\\question.pdf",
-              "answer": "exams\\2025\\1\\kokugo\\answer.pdf"
+              "question": "exams/2025/1/kokugo/question.pdf",
+              "answer": "exams/2025/1/kokugo/answer.pdf"
             },
             {
               "id": "koukyou",
-              "question": "exams\\2025\\1\\koukyou\\question.pdf",
-              "answer": "exams\\2025\\1\\koukyou\\answer.pdf"
+              "question": "exams/2025/1/koukyou/question.pdf",
+              "answer": "exams/2025/1/koukyou/answer.pdf"
             },
             {
               "id": "rekishi",
-              "question": "exams\\2025\\1\\rekishi\\question.pdf",
-              "answer": "exams\\2025\\1\\rekishi\\answer.pdf"
+              "question": "exams/2025/1/rekishi/question.pdf",
+              "answer": "exams/2025/1/rekishi/answer.pdf"
             },
             {
               "id": "seibutsukiso",
-              "question": "exams\\2025\\1\\seibutsukiso\\question.pdf",
-              "answer": "exams\\2025\\1\\seibutsukiso\\answer.pdf"
+              "question": "exams/2025/1/seibutsukiso/question.pdf",
+              "answer": "exams/2025/1/seibutsukiso/answer.pdf"
             },
             {
               "id": "suugaku",
-              "question": "exams\\2025\\1\\suugaku\\question.pdf",
-              "answer": "exams\\2025\\1\\suugaku\\answer.pdf"
+              "question": "exams/2025/1/suugaku/question.pdf",
+              "answer": "exams/2025/1/suugaku/answer.pdf"
             }
           ]
         },
@@ -68,58 +68,58 @@
           "subjects": [
             {
               "id": "butsurikiso",
-              "question": "exams\\2025\\2\\butsurikiso\\question.pdf",
-              "answer": "exams\\2025\\2\\butsurikiso\\answer.pdf"
+              "question": "exams/2025/2/butsurikiso/question.pdf",
+              "answer": "exams/2025/2/butsurikiso/answer.pdf"
             },
             {
               "id": "chigakukiso",
-              "question": "exams\\2025\\2\\chigakukiso\\question.pdf",
-              "answer": "exams\\2025\\2\\chigakukiso\\answer.pdf"
+              "question": "exams/2025/2/chigakukiso/question.pdf",
+              "answer": "exams/2025/2/chigakukiso/answer.pdf"
             },
             {
               "id": "chiri",
-              "question": "exams\\2025\\2\\chiri\\question.pdf",
-              "answer": "exams\\2025\\2\\chiri\\answer.pdf"
+              "question": "exams/2025/2/chiri/question.pdf",
+              "answer": "exams/2025/2/chiri/answer.pdf"
             },
             {
               "id": "eigo",
-              "question": "exams\\2025\\2\\eigo\\question.pdf",
-              "answer": "exams\\2025\\2\\eigo\\answer.pdf"
+              "question": "exams/2025/2/eigo/question.pdf",
+              "answer": "exams/2025/2/eigo/answer.pdf"
             },
             {
               "id": "kagakukiso",
-              "question": "exams\\2025\\2\\kagakukiso\\question.pdf",
-              "answer": "exams\\2025\\2\\kagakukiso\\answer.pdf"
+              "question": "exams/2025/2/kagakukiso/question.pdf",
+              "answer": "exams/2025/2/kagakukiso/answer.pdf"
             },
             {
               "id": "kajin",
-              "question": "exams\\2025\\2\\kajin\\question.pdf",
-              "answer": "exams\\2025\\2\\kajin\\answer.pdf"
+              "question": "exams/2025/2/kajin/question.pdf",
+              "answer": "exams/2025/2/kajin/answer.pdf"
             },
             {
               "id": "kokugo",
-              "question": "exams\\2025\\2\\kokugo\\question.pdf",
-              "answer": "exams\\2025\\2\\kokugo\\answer.pdf"
+              "question": "exams/2025/2/kokugo/question.pdf",
+              "answer": "exams/2025/2/kokugo/answer.pdf"
             },
             {
               "id": "koukyou",
-              "question": "exams\\2025\\2\\koukyou\\question.pdf",
-              "answer": "exams\\2025\\2\\koukyou\\answer.pdf"
+              "question": "exams/2025/2/koukyou/question.pdf",
+              "answer": "exams/2025/2/koukyou/answer.pdf"
             },
             {
               "id": "rekishi",
-              "question": "exams\\2025\\2\\rekishi\\question.pdf",
-              "answer": "exams\\2025\\2\\rekishi\\answer.pdf"
+              "question": "exams/2025/2/rekishi/question.pdf",
+              "answer": "exams/2025/2/rekishi/answer.pdf"
             },
             {
               "id": "seibutsukiso",
-              "question": "exams\\2025\\2\\seibutsukiso\\question.pdf",
-              "answer": "exams\\2025\\2\\seibutsukiso\\answer.pdf"
+              "question": "exams/2025/2/seibutsukiso/question.pdf",
+              "answer": "exams/2025/2/seibutsukiso/answer.pdf"
             },
             {
               "id": "suugaku",
-              "question": "exams\\2025\\2\\suugaku\\question.pdf",
-              "answer": "exams\\2025\\2\\suugaku\\answer.pdf"
+              "question": "exams/2025/2/suugaku/question.pdf",
+              "answer": "exams/2025/2/suugaku/answer.pdf"
             }
           ]
         }

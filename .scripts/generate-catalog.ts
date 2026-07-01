@@ -1,7 +1,6 @@
-import { createHash } from "node:crypto";
-import { readFileSync, statSync, writeFileSync } from "node:fs";
+import { writeFileSync } from "node:fs";
 import { readdir } from "node:fs/promises";
-import { basename, extname, join } from "node:path";
+import { basename, extname, posix } from "node:path";
 import ora from "ora";
 
 interface Catalog {
@@ -45,19 +44,19 @@ async function main() {
   const spinner_gen = ora('カタログ生成中...').start();
 
   for (const year of years) {
-    const yearPath = join(targetDir, year);
+    const yearPath = posix.join(targetDir, year);
     const rounds = (await readdir(yearPath)).sort();
 
     const rounds_out: Round[] = []
 
     for (const round of rounds) {
-      const roundPath = join(yearPath, round);
+      const roundPath = posix.join(yearPath, round);
 
       const subjects = (await readdir(roundPath)).sort();
 
       const subjects_out = await Promise.all(
         subjects.map(async (subject): Promise<Subject> => {
-          const subjectPath = join(roundPath, subject);
+          const subjectPath = posix.join(roundPath, subject);
 
           const files = await readdir(subjectPath);
 
@@ -67,11 +66,11 @@ async function main() {
           for (const file of files) {
             switch (basename(file, extname(file))) {
               case "question":
-                question = join(subjectPath, file);
+                question = posix.join(subjectPath, file);
                 break;
 
               case "answer":
-                answer = join(subjectPath, file);
+                answer = posix.join(subjectPath, file);
                 break;
             }
           }

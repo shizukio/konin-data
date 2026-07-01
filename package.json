@@ -2,6 +2,7 @@
   "scripts": {
     "?add:pdf": "過去問PDFの追加をする",
     "add:pdf": "tsx .scripts/add-pdf.ts",
+    "?generate": "生成",
     "generate": "nr generate:metadata & nr generate:catalog",
     "?generate:metadata": "メタデータ生成",
     "generate:metadata": "tsx .scripts/generate-metadata.ts",

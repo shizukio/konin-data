@@ -49,8 +49,6 @@ exams/
 pnpm add:pdf
 ```
 
----
-
 ### カタログ生成
 
 `catalog.json` を生成します。
@@ -59,8 +57,6 @@ pnpm add:pdf
 pnpm generate:catalog
 ```
 
----
-
 ### メタデータ生成
 
 `metadata.json` を生成します。
@@ -68,8 +64,6 @@ pnpm generate:catalog
 ```bash
 pnpm generate:metadata
 ```
-
----
 
 ### すべて生成
 
@@ -84,8 +78,6 @@ pnpm generate
 `catalog.json` はアプリが試験・科目・PDFの構成を認識するためのデータです。
 
 このファイルは手動で編集せず、スクリプトによって自動生成してください。
-
----
 
 ## metadata.json
 

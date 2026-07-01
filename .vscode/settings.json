@@ -1,0 +1,14 @@
+{
+  "files.watcherExclude": {
+    "metadata.json": true,
+    "catalog.json": true
+  },
+  "search.exclude": {
+    "metadata.json": true,
+    "catalog.json": true
+  },
+  "files.readonlyInclude": {
+    "metadata.json": true,
+    "catalog.json": true
+  },
+}

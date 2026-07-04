@@ -7,7 +7,7 @@
     "?add:pdf": "過去問PDFの追加をする",
     "add:pdf": "tsx .scripts/add-pdf.ts",
     "?generate": "生成",
-    "generate": "nr generate:metadata & nr generate:catalog & nr generate:subjects & nr generate:manifest",
+    "generate": "pnpm generate:metadata & pnpm generate:catalog & pnpm generate:subjects & pnpm generate:manifest",
     "?generate:metadata": "メタデータ生成",
     "generate:metadata": "tsx .scripts/generate-metadata.ts",
     "?generate:catalog": "カタログ生成",

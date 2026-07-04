@@ -2,6 +2,8 @@
   "scripts": {
     "?release": "リリースをする",
     "release": "tsx .scripts/release.ts",
+    "?rollback": "ロールバックをする",
+    "rollback": "tsx .scripts/rollback.ts",
     "?add:pdf": "過去問PDFの追加をする",
     "add:pdf": "tsx .scripts/add-pdf.ts",
     "?generate": "生成",

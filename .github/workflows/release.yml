@@ -1,0 +1,48 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: latest
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Generate data
+        run: pnpm generate
+
+      - name: Verify generated files
+        run: git diff --exit-code
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: "KONIN Data ${{ github.ref_name }}"
+          generate_release_notes: true
+          files: |
+            catalog.json
+            metadata.json
+            manifest.json
+            subjects.json

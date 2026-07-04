@@ -1,5 +1,7 @@
 {
   "scripts": {
+    "?release": "リリースをする",
+    "release": "tsx .scripts/release.ts",
     "?add:pdf": "過去問PDFの追加をする",
     "add:pdf": "tsx .scripts/add-pdf.ts",
     "?generate": "生成",
@@ -20,6 +22,7 @@
     "typescript": "^6.0.3"
   },
   "dependencies": {
+    "js-yaml": "^5.2.1",
     "ora": "^9.4.1"
   }
 }

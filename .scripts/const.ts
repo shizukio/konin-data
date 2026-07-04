@@ -1,4 +1,4 @@
-export const VERSION = 1
+export const VERSION: string = "2026.2"
 
 export const SUBJECT_CATEGORIES = [
   "common",

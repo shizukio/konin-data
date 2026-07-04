@@ -1,11 +1,11 @@
 {
-  "version": 1,
-  "updatedAt": "2026-07-04T02:39:55.458Z",
+  "version": "2026.2",
+  "updatedAt": "2026-07-04T03:01:22.529Z",
   "files": {
     "metadata": {
       "path": "metadata.json",
-      "sha256": "7c214b116fbde8c9b43ac38459f4ac8da1b9a2d655f113d3e317d662be005373",
-      "size": 7494
+      "sha256": "a66c59dc8dcb3db1d7d795e57b883f68bf686ddd46a2b7ea0b1a7f5f82c4470c",
+      "size": 7501
     },
     "catalog": {
       "path": "catalog.json",

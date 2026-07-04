@@ -27,8 +27,6 @@ async function main() {
     KONIN Data Manager / MANIFEST
     `)
 
-  const date = new Date()
-
   const files: ManifestFile = {}
 
   const spinner_entryFile = ora('エントリーファイルの計算...').start();
@@ -55,7 +53,6 @@ async function main() {
 
   writeFileSync("manifest.json", JSON.stringify({
     version: VERSION,
-    updatedAt: date,
     files,
   }, null, 2))
 

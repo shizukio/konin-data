@@ -13,8 +13,6 @@ async function main() {
     KONIN Data Manager / METADATA
     `)
 
-  const date = new Date()
-
   const targetDir = "exams"
 
   const examsRoot = await readdir(posix.join(targetDir), { recursive: true })
@@ -49,7 +47,6 @@ async function main() {
 
   writeFileSync("metadata.json", JSON.stringify({
     version: VERSION,
-    updatedAt: date,
     files,
   }, null, 2))
 

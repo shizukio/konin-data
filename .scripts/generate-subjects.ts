@@ -16,7 +16,7 @@ async function main() {
   for (const subject of subjects) {
     subjects_out[subject.value] = {
       name: subject.name,
-      category: "common",
+      category: subject.category,
     };
   }
 

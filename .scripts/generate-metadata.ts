@@ -1,24 +1,16 @@
-import { createHash } from "node:crypto";
+
 import { readFileSync, statSync, writeFileSync } from "node:fs";
 import { readdir } from "node:fs/promises";
 import { posix } from "node:path";
 import ora from "ora";
-
-function sha256hashSync(buffer: Buffer) {
-  return createHash('sha256').update(buffer).digest('hex')
-}
-
-type file = {
-  path: string,
-  size: number,
-  sha256: string
-}
+import { sha256hashSync } from "./utils";
+import { FileInfo, VERSION } from "./const";
 
 async function main() {
   const startTime = performance.now()
 
   console.log(`
-    KONIN Data Manager
+    KONIN Data Manager / METADATA
     `)
 
   const date = new Date()
@@ -27,7 +19,7 @@ async function main() {
 
   const examsRoot = await readdir(posix.join(targetDir), { recursive: true })
 
-  const files: file[] = []
+  const files: FileInfo[] = []
 
   const spinner_entryFile = ora('エントリーファイルの計算...').start();
 
@@ -43,8 +35,8 @@ async function main() {
 
       const file = {
         path,
-        size,
-        sha256
+        sha256,
+        size
       }
 
       files.push(file)
@@ -56,7 +48,7 @@ async function main() {
   const spinner_writeMetaFile = ora('メタファイルの作成...').start();
 
   writeFileSync("metadata.json", JSON.stringify({
-    version: 1,
+    version: VERSION,
     updatedAt: date,
     files,
   }, null, 2))

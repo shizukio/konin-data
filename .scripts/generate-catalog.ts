@@ -28,7 +28,7 @@ async function main() {
   performance.mark("start-process");
 
   console.log(`
-    KONIN Data Manager
+    KONIN Data Manager / CATEGORY
     `)
 
   const targetDir = "exams"

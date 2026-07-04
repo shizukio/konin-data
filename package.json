@@ -3,11 +3,15 @@
     "?add:pdf": "過去問PDFの追加をする",
     "add:pdf": "tsx .scripts/add-pdf.ts",
     "?generate": "生成",
-    "generate": "nr generate:metadata & nr generate:catalog",
+    "generate": "nr generate:metadata & nr generate:catalog & nr generate:subjects & nr generate:manifest",
     "?generate:metadata": "メタデータ生成",
     "generate:metadata": "tsx .scripts/generate-metadata.ts",
     "?generate:catalog": "カタログ生成",
-    "generate:catalog": "tsx .scripts/generate-catalog.ts"
+    "generate:catalog": "tsx .scripts/generate-catalog.ts",
+    "?generate:subjects": "科目マッピング生成",
+    "generate:subjects": "tsx .scripts/generate-subjects.ts",
+    "?generate:manifest": "マニフェスト生成",
+    "generate:manifest": "tsx .scripts/generate-manifest.ts"
   },
   "devDependencies": {
     "@inquirer/prompts": "^7",

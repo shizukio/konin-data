@@ -1,0 +1,46 @@
+{
+  "kokugo": {
+    "name": "国語",
+    "category": "common"
+  },
+  "chiri": {
+    "name": "地理",
+    "category": "common"
+  },
+  "rekishi": {
+    "name": "歴史",
+    "category": "common"
+  },
+  "koukyou": {
+    "name": "公共",
+    "category": "common"
+  },
+  "suugaku": {
+    "name": "数学",
+    "category": "common"
+  },
+  "kajin": {
+    "name": "科学と人間生活",
+    "category": "common"
+  },
+  "butsurikiso": {
+    "name": "物理基礎",
+    "category": "common"
+  },
+  "kagakukiso": {
+    "name": "化学基礎",
+    "category": "common"
+  },
+  "seibutsukiso": {
+    "name": "生物基礎",
+    "category": "common"
+  },
+  "chigakukiso": {
+    "name": "地学基礎",
+    "category": "common"
+  },
+  "eigo": {
+    "name": "英語",
+    "category": "common"
+  }
+}

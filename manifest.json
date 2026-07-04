@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-04T02:39:55.458Z",
+  "files": {
+    "metadata": {
+      "path": "metadata.json",
+      "sha256": "7c214b116fbde8c9b43ac38459f4ac8da1b9a2d655f113d3e317d662be005373",
+      "size": 7494
+    },
+    "catalog": {
+      "path": "catalog.json",
+      "sha256": "5597b68ad793eff5e232d54f1c929a08057cde59776247721c06c8c1ae43d161",
+      "size": 4263
+    },
+    "subjects": {
+      "path": "subjects.json",
+      "sha256": "a16701d4bb912b63f9c8999523b05c6ded5ca80f40cee78737c5b31c12970bc6",
+      "size": 786
+    }
+  }
+}

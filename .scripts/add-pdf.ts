@@ -2,6 +2,7 @@ import { input, select } from "@inquirer/prompts";
 import { mkdir, writeFile } from "node:fs/promises";
 import { dirname, posix } from "node:path";
 import ora from "ora";
+import { subjects } from "./const";
 
 async function main() {
   performance.mark("start-process");
@@ -28,19 +29,7 @@ async function main() {
 
   const subject = await select({
     message: "Subject",
-    choices: [
-      { name: "国語", value: "kokugo" },
-      { name: "地理", value: "chiri" },
-      { name: "歴史", value: "rekishi" },
-      { name: "公共", value: "koukyou" },
-      { name: "数学", value: "suugaku" },
-      { name: "科学と人間生活", value: "kajin" },
-      { name: "物理基礎", value: "butsurikiso" },
-      { name: "化学基礎", value: "kagakukiso" },
-      { name: "生物基礎", value: "seibutsukiso" },
-      { name: "地学基礎", value: "chigakukiso" },
-      { name: "英語", value: "eigo" },
-    ],
+    choices: subjects
   });
 
   const type = await select({

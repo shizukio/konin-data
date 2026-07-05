@@ -5,15 +5,15 @@
   },
   "chiri": {
     "name": "地理",
-    "category": "common"
+    "category": "history"
   },
   "rekishi": {
     "name": "歴史",
-    "category": "common"
+    "category": "history"
   },
   "koukyou": {
     "name": "公共",
-    "category": "common"
+    "category": "civics"
   },
   "suugaku": {
     "name": "数学",
@@ -21,23 +21,23 @@
   },
   "kajin": {
     "name": "科学と人間生活",
-    "category": "common"
+    "category": "science"
   },
   "butsurikiso": {
     "name": "物理基礎",
-    "category": "common"
+    "category": "science"
   },
   "kagakukiso": {
     "name": "化学基礎",
-    "category": "common"
+    "category": "science"
   },
   "seibutsukiso": {
     "name": "生物基礎",
-    "category": "common"
+    "category": "science"
   },
   "chigakukiso": {
     "name": "地学基礎",
-    "category": "common"
+    "category": "science"
   },
   "eigo": {
     "name": "英語",

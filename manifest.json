@@ -1,9 +1,9 @@
 {
-  "version": "2026.2",
+  "version": "2026.3",
   "files": {
     "metadata": {
       "path": "metadata.json",
-      "sha256": "4e373588cf61feb5617e7ef16708823f4b89ce1668a320e783c428e44a26f0cc",
+      "sha256": "f0a601e350a25e643783c1d69bd282939a52ab61a39f53383847f17e78a5a98b",
       "size": 7458
     },
     "catalog": {
@@ -13,8 +13,8 @@
     },
     "subjects": {
       "path": "subjects.json",
-      "sha256": "a16701d4bb912b63f9c8999523b05c6ded5ca80f40cee78737c5b31c12970bc6",
-      "size": 786
+      "sha256": "25a51165b3c1fe4bebce6a6acf900fdb9cedb6a80afc48ccb877304702532180",
+      "size": 793
     }
   }
 }
